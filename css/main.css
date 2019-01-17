@@ -1,0 +1,133 @@
+
+/* color palet from https://colorhunt.co/palette/33990 */
+
+/*tags*/
+body {
+    background-color: #f7fbfc;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #d6e6f2;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    height: 4px;
+    width: 20%;
+}
+
+h1 {
+    color: #3a0088;
+    text-align: center;
+}
+
+h2 {
+    color: #769fcd;
+}
+
+h3 {
+    color: #769fcd;
+    text-align: center;
+}
+
+h4 {
+    color: #769fcd;
+    text-align: justify;
+}
+
+table {
+    align-items: stretch;
+    border-spacing: 10px;
+    border: 2px solid #d6e6f2;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid #d6e6f2;
+}
+
+a {    
+    text-decoration: none;
+}
+
+/*classes*/
+.container {
+    display: inline-block;
+}
+
+.top-container {
+    background-color: #f7fbfc;
+    position: fixed;
+    height: 185px;
+    width: 100%;
+}
+
+.title-container {
+    background-color: #f7fbfc;
+    position: absolute;
+    height: 155px;
+    left: 0;
+    width: 70%;
+}
+
+.info-container {
+    background-color: #f7fbfc;
+    position: absolute;
+    height: 155px;
+    right: 0;
+    width: 30%;
+}
+
+.top-hr-container {
+    background-color: #f7fbfc;
+    position: absolute;
+    margin-left: 15%;
+    width: 70%;
+    bottom: 0;
+}
+
+.middle-container {
+    background-color: #f7fbfc;
+    height: 30%;
+    margin-top: 185px;
+    margin-left: 15%;
+    width: 70%;    
+}
+
+.thanks-container {
+    background-color: #f7fbfc;
+    height: 15%;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.left-img {
+    float: left;
+    margin-right: 6rem;
+    width: 16%;
+}
+
+.right-img {
+    float: right;
+    margin-left: 6rem;
+    width: 16%;
+}
+
+.center-img {
+    display: block;
+    margin: auto;
+    width: 16%;
+}
+
+.footer {
+    font-size: 8px;
+}
+/*id*/
+
+/*psudo-elements*/
+h3:hover {
+    color: gold;
+}
