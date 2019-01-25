@@ -53,6 +53,10 @@ a {
     text-decoration: none;
 }
 
+address {
+    font-size: 10px;
+}
+
 /*classes*/
 .container {
     display: inline-block;
